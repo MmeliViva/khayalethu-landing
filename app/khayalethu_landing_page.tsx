@@ -49,30 +49,39 @@ export default function LandingPage() {
         </section>
 
 
-      {/* Features Section */}
-      <div className="bg-white py-20 px-10 text-center">
-        <h2 className="text-4xl font-semibold mb-10">Estate Features</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Card>
-            <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-2">Golf Course</h3>
-              <p>18-hole championship course designed for all levels of play.</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-2">Eco Lodge</h3>
-              <p>Nature-inspired lodging perfect for retreats, weddings, and getaways.</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-2">Residential Homes</h3>
-              <p>Plots and turnkey homes tailored for rural luxury living.</p>
-            </CardContent>
-          </Card>
-        </div>
-      </div>
+          {/* Features Section */}
+<section className="bg-[#fdfaf4] py-24 px-6 md:px-16 text-center">
+  <h2 className="text-5xl font-bold mb-12 font-[var(--font-playfair)] text-[#1e1e1e]">
+    Estate Features
+  </h2>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+    {/* Feature 1 */}
+    <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+      <div className="text-5xl mb-4">⛳</div>
+      <h3 className="text-2xl font-semibold mb-2 font-[var(--font-poppins)]">Golf Course</h3>
+      <p className="text-gray-600 font-[var(--font-poppins)]">
+        18-hole championship course designed for every level of play — relax or compete in the scenic Eastern Cape.
+      </p>
+    </div>
+    {/* Feature 2 */}
+    <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+      <div className="text-5xl mb-4">🏡</div>
+      <h3 className="text-2xl font-semibold mb-2 font-[var(--font-poppins)]">Eco Lodge</h3>
+      <p className="text-gray-600 font-[var(--font-poppins)]">
+        Tranquil eco-accommodation for nature retreats, weddings, business stays, and peaceful holidays.
+      </p>
+    </div>
+    {/* Feature 3 */}
+    <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition duration-300">
+      <div className="text-5xl mb-4">🏘️</div>
+      <h3 className="text-2xl font-semibold mb-2 font-[var(--font-poppins)]">Residential Living</h3>
+      <p className="text-gray-600 font-[var(--font-poppins)]">
+        Spacious plots and turnkey homes that redefine rural luxury, built for comfort and sustainability.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <div className="bg-gray-100 p-10 text-center">
