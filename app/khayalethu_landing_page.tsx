@@ -27,18 +27,27 @@ export default function LandingPage() {
           </div>
         </div>
 
-
       {/* About Section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 items-center bg-gray-50">
-        <img src="/images/grazing-land.jpg" alt="Grazing Land" className="rounded-2xl shadow-xl" />
-        <div>
-          <h2 className="text-4xl font-semibold mb-4">Why Khayalethu?</h2>
-          <p className="text-lg">
-            Located on 490 hectares of scenic former farmland, Khayalethu offers a rare opportunity to blend luxury living,
-            eco-tourism, and rural development in one of South Africa's most peaceful natural settings.
-          </p>
-        </div>
-      </div>
+        <section className="bg-[#fdf8f1] py-20 px-6 md:px-16">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <img
+              src="/images/grazing-land.jpg"
+              alt="Grazing Land"
+              className="rounded-2xl shadow-2xl border-4 border-white"
+            />
+            <div>
+              <h2 className="text-5xl font-bold mb-6 font-[var(--font-playfair)] text-[#1a1a1a]">
+                Why Khayalethu?
+              </h2>
+              <p className="text-lg leading-relaxed text-gray-700 font-[var(--font-poppins)]">
+                Nestled in the rolling hills of the Eastern Cape, Khayalethu is a visionary development
+                on 490 hectares of serene former farmland. This rural golf estate blends nature,
+                modern comfort, and opportunity — inviting both investors and families to be part of something extraordinary.
+              </p>
+            </div>
+          </div>
+        </section>
+
 
       {/* Features Section */}
       <div className="bg-white py-20 px-10 text-center">
