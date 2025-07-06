@@ -24,8 +24,8 @@ export default function LandingPage() {
             <Button className="text-lg px-8 py-3 bg-white text-[#165937] hover:bg-[#dfeee6] transition rounded-full shadow-lg">
               Download Pitch Deck
             </Button>
-          </div>
         </div>
+      </div>
 
       {/* About Section */}
         <section className="bg-[#fdf8f1] py-20 px-6 md:px-16">
